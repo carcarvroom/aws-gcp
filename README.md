@@ -6,12 +6,13 @@ To download files from AWS S3:
 
 Run 
 ``` bash 
-node download.js --s3Bucket tg-test-01  --accessKey <insert-key> --secretAccessKey <insert-key> --downloadDirectory ./tmp/
+node download.js --s3Bucket tg-test-01 --accessKey <insert-key> --secretAccessKey <insert-key> --downloadDirectory ./tmp/
 ```
 
 To upload files to GCP Storage:
+Run 
 ``` bash 
-Run node upload.js --gcpBucket tg-test-01 --downloadDirectory ./tmp/ --serviceAccountKeyPath <insert-dir-path>
+node upload.js --gcpBucket tg-test-01 --downloadDirectory ./tmp/ --serviceAccountKeyPath <insert-dir-path>
 ```
 
 Use the command ```--help``` for bash command details.
