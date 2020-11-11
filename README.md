@@ -10,6 +10,7 @@ node download.js --s3Bucket tg-test-01 --accessKey <insert-key> --secretAccessKe
 ```
 
 To upload files to GCP Storage:
+
 Run 
 ``` bash 
 node upload.js --gcpBucket tg-test-01 --downloadDirectory ./tmp/ --serviceAccountKeyPath <insert-dir-path>
