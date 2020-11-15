@@ -26,3 +26,6 @@ Use the command ```--help``` for bash command details.
 - Ability to create buckets if one does not exist.
 - Bookkeeping error status codes and determining if uploads can be immediately retried.
 
+## Questions
+**Carly La**
+https://www.linkedin.com/in/carlyla/
